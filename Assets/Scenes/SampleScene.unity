@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 147566395}
   - component: {fileID: 147566394}
   - component: {fileID: 147566393}
+  - component: {fileID: 147566396}
   m_Layer: 0
   m_Name: Triangle (1)
   m_TagString: Pickup
@@ -257,6 +258,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 51.975}
+--- !u!114 &147566396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147566392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5893e3a07a442454c820bfc7da4493fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spin
+  _spinSpeed: -40
 --- !u!1 &205300522
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,6 +951,7 @@ GameObject:
   - component: {fileID: 1876985492}
   - component: {fileID: 1876985491}
   - component: {fileID: 1876985490}
+  - component: {fileID: 1876985493}
   m_Layer: 0
   m_Name: Triangle
   m_TagString: Pickup
@@ -1064,6 +1079,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 51.975}
+--- !u!114 &1876985493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876985489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5893e3a07a442454c820bfc7da4493fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  _spinSpeed: 45
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
